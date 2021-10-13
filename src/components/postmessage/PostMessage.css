@@ -1,0 +1,38 @@
+.post__message{
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.post__message__user{
+    display: flex;
+}
+
+.post__message__user__dp{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.post__message__user__details{
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 12px;
+    }
+
+    .post__message__content{
+        margin-top: 5px;
+    }
+
+    .post__message__text{
+       margin-bottom: 5px;
+       white-space: nowrap;
+    }
+
+    .post__message__content__image >img{
+        width: 100%;
+    }

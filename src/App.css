@@ -1,0 +1,21 @@
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  user-select: none;
+  background-color: lightgrey;
+}
+
+.app{
+  margin: 0;
+  height:100vh;
+  overflow-y:auto ;
+}
+
+
+/* Margins */
+.ml__5{
+  margin-left: 5px;
+}
